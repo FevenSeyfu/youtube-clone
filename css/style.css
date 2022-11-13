@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* new font for youtube logo  */
+@font-face{
+    font-family: "kenyan-coffee-bd";
+    src: url("resources/font/kenyan coffee bd.ttf") format("truetype");
+}
+
+/* top navigation bar style */
+.nav-bar{
+    border: 1px solid red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+}
+/* style icons */
+.nav-section{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+/* hamburger menu */
+.hamburger-menu{
+    margin: 20px;
+    font-size: larger;
+}
+
+/* style logo */
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+    margin: 0 30px;
+
+}
+/* .logo-icon{} */
+.logo-name{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -2px;
+    font-family: 'kenyan-coffee-bd',sans-serif;
+}
+/* icon section 2 */
+.search-section{}
+.search-icon{}
+.mic-icon{}
+
+/* top right section icons */
+.right-icons{}
+.create-icon{}
+.bell-icon{}
+.avatar{}
+
+/* style suggestion and filter section */
+.top-suggestion{
+    border: 1px solid green;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin-left:100px ;
+}
+
+.side-navbar{
+    border: 1px solid black;
+    position: fixed;
+    left: 0;
+    margin-top: 120px;
+    width: 100px;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .side-navbar {
+        display: none;
+    }
+}
+/* .main-section{
+
+} */
